@@ -1,0 +1,26 @@
+<!-- Name -->
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>SimpleCalc</h1>
+
+        Value 1: <input id='v1' type="text"/><br>
+        Value 2: <input id='v2' type="text"><br>
+        <button id="add">+</button><button id="sub">-</button><button id="times">x</button><br>
+        <div id="message"></div>
+    </body>
+
+<script>
+
+    const ipt1 = document.getElementById('v1')
+  
+    const addButton = document.getElementById('add')
+    addButton.addEventListener("click", () => {
+        const val1 = ipt1.value;
+        console.log("Hello.  The current value in box 1 is " + val1);
+    })
+</script>
+
+</html>
